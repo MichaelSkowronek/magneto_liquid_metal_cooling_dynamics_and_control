@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='utils',
+    name='python_utils',
     version='0.0.1',
     author='Michael Skowronek',
     author_email='michael.skowronek.91@gmail.com',
@@ -21,12 +21,12 @@ setup(
     packages=find_packages(
         where='.',
         include=[
-            'utils',
-            # e.g. 'utils.example',
+            'python_utils',
+            # e.g. 'python_utils.example',
         ],
         exclude=[
-            'utils.tests',
-            'utils.example',
+            'python_utils.tests',
+            'python_utils.example',
         ],
     ),
 )
