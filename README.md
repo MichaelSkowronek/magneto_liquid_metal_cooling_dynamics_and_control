@@ -1,6 +1,6 @@
 # magnetic_liquid_metal_dynamics_and_control
 
-Data-driven surrogate modelling and control of liquid metal ducts in strong magnetic fields with wall conductivity.
+Data-driven surrogate modelling and control of liquid metal in strong magnetic field with wall conductivity.
 
 
 ## For Contributors
