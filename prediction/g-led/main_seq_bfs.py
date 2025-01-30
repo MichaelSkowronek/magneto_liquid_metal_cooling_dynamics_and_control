@@ -29,8 +29,8 @@ class Args:
                                  default='bfs_les',
                                  help='name it')
         self.parser.add_argument("--data_location", 
-                                 default = ['../../g-led/g-led_demo_data/data0.npy',
-                                            '../../g-led/g-led_demo_data/data1.npy'],
+                                 default = ['../../data/g-led/g-led_demo_data/data0.npy',
+                                            '../../data/g-led/g-led_demo_data/data1.npy'],
                                  help='the relative or abosolute data.npy file')
         self.parser.add_argument("--trajec_max_len", 
                                  default=41,
