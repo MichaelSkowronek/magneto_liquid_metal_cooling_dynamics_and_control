@@ -1,3 +1,4 @@
 *
 !.gitignore
-!RBC_DataGen
+!RBC_DataGen/
+!RBC_DataGen/*
